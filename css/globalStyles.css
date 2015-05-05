@@ -4,7 +4,7 @@
 	padding: 0;
 }
 body {
-	background: #ccc; 
+	background: #000; 
 	font-family: arial, verdana, tahoma;
 }
 
@@ -17,12 +17,46 @@ so total container width = 640 + 40*4 = 800px;
 default width = 800/5 = 160px;
 */
 
+#contactWrapper {
+    width:75px;
+    height: auto;
+    border-color: #fff;
+    border-style: solid;
+    background-color: #fff;
+    
+}
+
+.fa fa-phone-square {
+    color: #fff;
+}
+
+header img { 
+    width: 805;
+    height: auto;
+    margin: 80px 80px 20px 80px;
+    /*border-style: solid;
+    border-color: #fff;*/
+}
+
+#listHeaderWrapper { 
+    width: 805;
+    height: auto;
+    margin: 10px 80px 10px 80px;
+}
+
+#listHeaderWrapper h3{ 
+    color: #fff;
+    text-align: center;
+    
+}
+    
+
 .accordian {
 	width: 805px; height: 320px;
 	overflow: hidden;
 	
 	/*Time for some styling*/
-	margin: 100px auto;
+	margin: 40px 80px 10px 80px;
 	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 	-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
 	-moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
@@ -81,3 +115,10 @@ width: 640px;
 	padding: 20px;
 	font-size: 16px;
 }
+
+#footerWrapper h6{
+    text-align: center;
+    color: #fff;
+    margin-top: 10%;
+}
+
